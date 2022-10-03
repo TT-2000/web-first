@@ -1,13 +1,206 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="icon" type="image/x-icon" href="./favicon-example-generator.png">
+    <title>Web Căn Bản</title>
+
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            height: 100rem;
+        }
+
+        h2 {
+            color: blue;
+            padding-bottom: 5px;
+        }
+
+        .menu a {
+            text-decoration: none;
+            padding: 0  10px;
+            color: white;
+            line-height: 40px;
+
+        }
+
+        .menu {
+            background-color: blue;
+            width: 100%;
+            height: 40px;
+            
+        }
+
+        .main {
+            padding: 10px;
+        }
+
+        .main h1 {
+            padding-bottom: 10px;
+        }
+        
+        .main ul {
+            list-style-type: none;
+        }
+     
+        aside {
+            border: 1px solid rgb(234, 174, 22);
+            border-radius: 4px;
+
+        }
+
+        aside ul {
+            padding: 10px;
+        }
+
+        aside li {
+            display: flex;
+            padding: 10px 0;
+            border-top: 1px solid #fff;
+        }
+
+        aside div {
+            padding: 0 10px;
+        }
+
+        aside li:first-child {
+            border: none;
+        }
+
+        form {
+            border: 1px solid #fff;
+        }
+
+        form .form-group {
+            padding: 10px;
+  
+            
+        }
+
+        form label {
+            display: block;
+            padding-bottom: 10px;
+            font-weight: 600;
+        }
+
+        form h2 {
+            text-align:  center;
+        }
+
+        form button {
+            
+            margin: 10px 0;
+            padding: 10px 20px;
+        }
+
+        form input[type="checkbox"] {
+            padding-right: 10px;
+        }
+
+    </style>
 </head>
 <body>
-    <h1>test git</h1>
-    <h2>đâsd</h2>
+
+    <div class="menu">
+        <a href="">Trang chủ</a>
+        <a href="">Chủ đề</a>
+        <a href="">Bài viết mới</a>
+        <a href="">Liên hệ</a>
+    </div>
+
+    <article class="main">
+        <h1>Common Pitfalls When Redesigning a  <span style="color: blue;">WordPress</span> Website</h1>
+        <hr>
+        <br>
+        <p>There’s more to redesigning a website than creating a new look. Within just about every site are quirks and customizations that require attention. 
+        And then there’s the task of adding new<br> functionality and making it work with what’s already there. 
+        </p>
+        <br>
+        <p>That leads us to <a href="https://wordpress.com/fr/">WordPress</a>. Even relatively simple websites built with the content management<br>system (CMS) consist of several moving parts. There’s a database, theme, and multiple plugins to<br> manage – not to mention the nearly-endless array of customization possibilities. Therefore, a<br> redesign will likely take more than simply activating a new theme. </p>
+        <br>
+        <p>It's a challenge - even for experienced web designers. And as the complexity of the project goes <br>up, so do the chances of encountering problems or missing a key detail or two.</p>
+        <br>
+        
+        <aside>
+            <ul>
+                <li>
+                    <img width="100" height="80" src="https://speckyboy.com/wp-content/uploads/2022/09/personal-design-style-01.jpg">
+                    <div class="">
+                        <h2>How to Develop Your Signature Style as a Web Designer</h2>
+                        <p>In design, as in society, there is constant pressure to mimic the most successful among us. Just like some want to copy the look and style of their favorite celebrity, clients often want designers to copy elements (or even entire layouts) of the top websites.</p>
+                    </div>
+                </li>
+                
+                <li>
+                    <img width="100" height="80" src="https://speckyboy.com/wp-content/uploads/2022/09/personal-design-style-02.jpg">
+                    <div class="">
+                        <h2>Create Something for Yourself</h2>
+                        <p>
+                            While it might make our clients happy and help us become even more proficient at our job – it’s not necessarily the most fulfilling experience for creative people. No, real satisfaction among creative professionals comes from actually creating something. Even if it’s not 100% different from the last thing we created, we still want to put our unique touch on everything we do.</p>
+                    </div>
+                </li>
+            </ul>
+        </aside>
+        
+        <br>
+        <img width="100" height="100" alt="Eric Karkovack" src="data:image/jpeg;base64,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">
+        <ul>
+            <br>
+            <li>By <a href="https://speckyboy.com/author/erickarkovack/">Eric Karkovack</a> on Sep 28th, 2022</li>
+        </ul>
+
+    </article>
+
+    <form action="">
+        <h2>Thông tin độc giả</h2>
+
+        <div class="form-group">
+            <label for="fullname">Tên đầy đủ :</label>
+            <input type="text" id="fullname" placeholder=" Vd: Nguyen Van A">
+        </div>
+
+        <div class="form-group">
+            <label for="">Giới tính :</label>
+            <input type="radio" name="gender" id="" checked> Nam
+            <input type="radio" name="gender" id=""> Nữ
+            <input type="radio" name="gender" id=""> Khác
+
+        </div>
+
+        <div class="form-group">
+            <label for="">Thể loại yêu thích :</label>
+            <input type="checkbox" name="gender" id=""> Trinh thám
+            <input type="checkbox" name="gender" id=""> Lãng mạng
+            <input type="checkbox" name="gender" id=""> Kinh dị
+            <input type="checkbox" name="gender" id=""> Kịch tính
+
+
+        </div>
+
+        <div class="form-group">
+            <label for="">Địa chỉ :</label>
+
+            <select >
+                <option value="">-- Tỉnh/Tp --</option>
+                <option value="hn">Hà Nội</option>
+                <option value="bn">Bắc Ninh</option>
+                <option value="dn">Đà Nẵng</option>
+            </select>
+
+        </div>
+
+        <button type="button">Lưu</button>
+        <button type="reset">Reset</button>
+
+    </form>
+    
 </body>
 </html>
