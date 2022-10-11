@@ -1,0 +1,190 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;900&display=swap');
+
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Raleway', sans-serif;
+    background-color: rgb(21, 21, 20);
+}
+
+
+.card {
+    box-shadow: 1px 2px 18px rgba(237, 230, 230, 0.548);
+    display: flex;
+    height: 540px;
+    width: 550px;
+    padding: 40px 30px;
+    border-radius: 10px;
+    background: #fff;
+}
+
+.card .card__extra {
+    transform: translateX(-80px);
+    background: #9be010;
+    width: 20rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 1px 2px 18px rgba(0,0,0,0.3);
+}
+
+.card .card__extra .card__extra-icon {
+    display: flex;
+    justify-content: space-between;
+    padding:  8px;
+}
+
+.card .card__extra .card__extra-icon i {
+    position: relative;
+    color : #fff;
+    font-size: 1.6rem;
+    cursor: pointer;
+    z-index: 99999;
+}
+
+.card .card__extra .card__extra-album {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #ffffff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 1rem;
+    
+} 
+
+.card .card__extra .card__extra-album img {
+    border: 1px solid red;
+    width: 55px;
+    height: 55px;
+    padding: 10px;
+    border-radius: 3px;
+    
+}
+
+.card .card__extra .card__extra-img {
+    height: 280px;
+    width: 280px;
+    transform: translate(-68px, -60px);
+}
+
+.card .card__main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    transform : translateX(-40px)
+}
+
+.card .card__main .card__main-items h2 {
+    color: #444;
+    font-weight: 900;
+    font-size: 1.6rem;
+}
+
+.card .card__main .card__main-items p {
+    font-size: 12px;
+    color: #777;
+    font-weight: 300;
+}
+
+.card .card__main .card__main-price {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.card .card__main .card__main-price p {
+    font-size: 1.2rem;
+    color: red;
+    font-weight: 300;
+    transform: translateY(15px);
+    margin-right: .6rem;
+}
+
+.card .card__main .card__main-price span {
+    font-size: 3rem;
+    font-weight: 500;
+    color: red;
+}
+
+.card .card__main .card__main-select {
+    height: 2rem;
+    
+}
+
+.card .card__main .card__main-select h2 {
+    color: #777;
+    font-weight: 500;
+    font-size: .8rem;
+}
+
+.card .card__main .card__main-select ul{
+    list-style: none;
+    margin-top: 10px;
+}
+
+.card .card__main .card__main-select li {
+    margin-right: 2px;
+    float: left;
+    width: 40px;
+    height: 40px;
+    border-radius: 3px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    
+}
+
+.card .card__main .card__main-select img {
+    max-width: 100%;
+}
+
+.card .card__main .card__main-select li:first-child,
+.card .card__main .card__main-select li:hover {
+    border: 1px solid red;
+}
+
+.card .card__main .card__main-benefit h2 {
+    color: #777;
+    font-weight: 500;
+    font-size: .8rem;
+    margin-top: 2rem ;
+}
+
+.card .card__main .card__main-benefit ul {
+    margin-top: .6rem ;
+}
+
+.card .card__main .card__main-benefit li {
+    line-height: 1.4rem;
+    font-size: .8rem;
+    transform: translateX(11px);
+}
+
+.card .card__main button {
+    padding: 1.2rem;
+    width: 70%;
+    background: rgb(225, 56, 56);
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 2px 2px 30px 1px rgb(0 0 0 / 20%);
+}
+
+.card .card__main button:active {
+    transform: scale(0.96);
+}
+
+
+

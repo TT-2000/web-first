@@ -1,0 +1,96 @@
+
+.paradigm {
+    border: 2px solid #111;
+    display: inline-block;
+}
+
+.paradigm img {
+    width: 250px;
+    height: 250px;
+}
+
+.paradigm h2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+.paradigm p {
+    margin-left: 5px;
+}
+
+.paradigm span {
+    color: red;
+    font-weight: 600;
+}
+
+.paradigm:hover   {
+    background-color: rgb(36, 110, 201);
+}
+
+.paradigm button {
+    padding: 10px;
+    font-weight: 600;
+    background-color: rgba(92, 92, 221, 0.787);
+    border: 2px solid  #111;
+    cursor: pointer;
+    color: #fff;
+    margin: 2px;
+    margin-left: 5px;
+    transition: all .8s ease;
+    border-radius: 2px;
+}
+
+
+
+
+.heading-1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    color: rgb(128, 13, 13);
+    font-weight: 600;
+    font-size: 20px;
+
+}
+
+.paragraph-1 {
+    font-family: sans-serif;
+    
+}
+
+
+.paragraph-2 {
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+.text-bold {
+    font-weight: 600;
+}
+
+
+
+.box {
+    background: url("https://vietnamtourfun.com/wp-content/uploads/2021/02/Ha-Long-Bay-1.jpg") no-repeat;
+    width: 500px;
+    height: 400px;
+    background-size: contain;
+    overflow: hidden;
+    transition: all .5s ease;
+}
+
+.box p {
+    background-color: rgba(0, 0, 0, 0.371);
+    line-height: 40px; 
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+   
+}
+
+.box:hover {
+    width: 600px;
+    transform: scale(1.1);
+}

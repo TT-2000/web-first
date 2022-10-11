@@ -1,0 +1,80 @@
+
+
+.list-name ol {
+    display: inline-block;   
+}
+
+.list-name li {
+    padding: 10px 80px 10px 10px;
+    background: #333;
+}
+
+.list-name li:first-child {
+    background: rgb(125, 197, 52);
+
+}
+.list-name li:last-child {
+    background: rgb(25, 81, 114);
+
+}
+
+.list-name a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/* bài 2 */
+.list-item ul {
+    display: inline-block;
+    list-style: none;
+}
+
+
+
+.list-item li {
+    padding: 10px 40px;
+    border-top: 1px solid #333;
+    background: rgb(84, 84, 209);
+}
+
+.list-item li:first-child {
+    border: none;
+}
+
+.list-item a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* bài 3 */
+
+.box {
+    background: blue;
+    width: 200px;
+    height: 380px;
+    
+}
+
+
+.box ul {
+    list-style: none;
+    padding: 10px ;
+
+}
+
+.box div {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background: yellow;
+}
+
+.box li:nth-child(3n + 2) {
+    text-align: center;
+}
+
+.box li:nth-child(3n) {
+    text-align: right;
+}
+
